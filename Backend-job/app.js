@@ -18,7 +18,7 @@ app.use(express.json());
 
 // Set up your routes
 //app.use('/', require('./routes/mainRoutes'));
-app.use('/', require('./routes/appoinmentRoutes'));
+app.use('/', require('./routes/jobRoutes'));
 //app.use('/', require('./routes/patientRoutes'));
 app.use('/user', require('./routes/userRoutes'));
 //app.use('/protected', require('./routes/protected'));
